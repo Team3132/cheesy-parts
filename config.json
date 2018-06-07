@@ -1,21 +1,21 @@
 {
   "global": {
     "db_host": "localhost",
-    "db_user": "team254",
-    "db_database": "cheesy_parts",
+    "db_user": "tduparts_user",
+    "db_database": "tduparts",
     "port": 9000,
-    "base_address": "https://parts.team254.com",
+    "base_address": "localhost",
     "gmail_user": "cheesyparts@gmail.com",
-    "enable_wordpress_auth": true
+    "enable_wordpress_auth":false 
     },
   "dev": {
-    "db_password": "correcthorsebatterystaple",
+    "db_password": "P@ssw0rd.3132",
     "gmail_password": "correcthorsebatterystaple",
-    "members_url": "http://members.team254.localhost:81/"
+    "members_url": ""
   },
   "prod": {
-    "db_password": "Encrypted:0iYLP6HuJ7qY1/BtUYAQ+Q==\n",
+    "db_password": "",
     "gmail_password": "Encrypted:0iYLP6HuJ7qY1/BtUYAQ+Q==\n",
-    "members_url": "https://members.team254.com"
+    "members_url": ""
   }
 }

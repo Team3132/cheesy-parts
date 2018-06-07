@@ -13,6 +13,6 @@ Sequel.extension :migration
 namespace :db do
   task :migrate do
     require_relative "db"
-    Sequel::Migrator.run(DB, "db/migrations")
+    Sequel::Migrator.run(DB, "db/migrations", target:15, current:)
   end
 end
